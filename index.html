@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>对我说的话</title>
+<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<h1>留言栏</h1>
+<h3>格式：姓名/网名+想说的话</h3>
+<textarea id="dome" cols="60" rows="10"></textarea>
+<br/>
+<input type="button" value="保存" onclick="saveStorage('dome');">
+<input type="button" value="读取" onclick="loadStorage('msg');">
+<hr>
+<p id="msg"></p>
+</body>
+</html>
